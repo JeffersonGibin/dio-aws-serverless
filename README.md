@@ -1,12 +1,12 @@
 # DIO-AWS Serverless
 
 
-## Desafio
+### Desafio
 
 O desafio proposto pela DIO foi replicar a solução implementada pelo especialista durante as aulas, que consiste em um CRUD que salva informações no AWS DynamoDB usando AWS Lambda.
 
 
-## Solução:
+### Solução:
 
 Foi desenvolvido uma API to-do list, onde é possível cadastrar tarefas, listar tarefas, buscar tarefas por status e alterar status de uma tarefa. A seguir você pode encontrar o contrato da API para conseguir realizar os testes.
 
