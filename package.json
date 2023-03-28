@@ -1,0 +1,21 @@
+{
+  "name": "dio-poc",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "aws-sdk": "^2.1342.0",
+    "node-input-validator": "^4.5.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^12.0.4"
+  },
+  "scripts": {
+    "local": "sls offline start --reloadHandler"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
