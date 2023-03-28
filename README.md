@@ -28,7 +28,7 @@ Host: http://localhost:3000/dev
   - **Payload:** `{ "status": "IN_PROGRESS" }`
 
 
-## Tecnologias
+### Tecnologias
 - AWS Lambda
 - AWS DynamoDB
 - Node.js
