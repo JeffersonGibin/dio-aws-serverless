@@ -38,8 +38,6 @@ export async function handler(event) {
       }
     );
 
-    console.log(result)
-
     if(result.status !== "SUCCESS"){
       return {
         statusCode: 422,
@@ -58,7 +56,6 @@ export async function handler(event) {
       }),
     };
   } catch (error) {
-    console.log(error)
     return {
       statusCode: 400,
       body: JSON.stringify({
